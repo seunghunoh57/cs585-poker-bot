@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tesseract-OCR">
+      <UniqueIdentifier>{f2698fac-ab91-41bf-98d9-0bbae8ca5999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\tessdata">
+      <UniqueIdentifier>{96e4d468-28dd-4b3b-8c39-e29c194d45dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\tessdata\tessconfigs">
+      <UniqueIdentifier>{68deaf81-05a2-4094-88da-e4933977a477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\tessdata\configs">
+      <UniqueIdentifier>{7bbe38f9-ffc2-421e-b475-f470870a02d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\output">
+      <UniqueIdentifier>{0ba547c0-9a21-4d30-9580-1cea7e3598c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\java">
+      <UniqueIdentifier>{c4ed4397-e7d2-4483-b7e9-876336a31a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tesseract-OCR\doc">
+      <UniqueIdentifier>{d50f5131-16c2-42a9-8524-461ceb73865e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tesseract-OCR\wordlist2dawg.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\unicharset_extractor.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tesseract.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\segdemo">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\nobatch">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\msdemo">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\matdemo">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\batch.nochop">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\tessconfigs\batch">
+      <Filter>Tesseract-OCR\tessdata\tessconfigs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.traineddata">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.tesseract_cube.nn">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.word-freq">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.size">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.params">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.nn">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.lm_">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.lm">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.fold">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\eng.cube.bigrams">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\unlv">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\strokewidth">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\rebox">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\quiet">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\makebox">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\logfile">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\linebox">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\kannada">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\inter">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\hocr">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\digits">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\box.train.stderr">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\box.train">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\bigram">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\api_config">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\configs\ambigs.train">
+      <Filter>Tesseract-OCR\tessdata\configs</Filter>
+    </None>
+    <None Include="Tesseract-OCR\tessdata\chi_sim.traineddata">
+      <Filter>Tesseract-OCR\tessdata</Filter>
+    </None>
+    <None Include="Tesseract-OCR\shapeclustering.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\mftraining.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\java\ScrollView.jar">
+      <Filter>Tesseract-OCR\java</Filter>
+    </None>
+    <None Include="Tesseract-OCR\doc\ReleaseNotes">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </None>
+    <None Include="Tesseract-OCR\doc\README">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </None>
+    <None Include="Tesseract-OCR\doc\COPYING">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </None>
+    <None Include="Tesseract-OCR\doc\AUTHORS">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </None>
+    <None Include="Tesseract-OCR\dawg2wordlist.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\combine_tessdata.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\cntraining.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\classifier_tester.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="Tesseract-OCR\ambiguous_words.exe">
+      <Filter>Tesseract-OCR</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Tesseract-OCR\output\ocr_output_buffer.txt">
+      <Filter>Tesseract-OCR\output</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Tesseract-OCR\doc\phototest.tif">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </Image>
+    <Image Include="Tesseract-OCR\doc\eurotext.tif">
+      <Filter>Tesseract-OCR\doc</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
